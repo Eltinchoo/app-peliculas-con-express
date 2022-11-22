@@ -5,7 +5,7 @@
 const router = require('express').Router()
 
 const moviesServices = require('./movies.services')
-router.get('movies', moviesServices.getAllMovies)
+router.get('/movies', moviesServices.getAllMovies)
 router.post('/movies', moviesServices.postAMovie)
 router.get('/movies/:id', moviesServices.getAllMovies)
 

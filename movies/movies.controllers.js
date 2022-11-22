@@ -2,7 +2,7 @@
 
 const moviesDB = []
 
-let id = 0
+let id = 1
 
 const findAllMovies = () => {
     //? Esta funcion debe de traer todas las peliculas de mi base de datos
